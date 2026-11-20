@@ -1,0 +1,55 @@
+{
+	"PiPLs" :
+	[
+		{
+			"Kind":"Format",
+			"Name":"ICO (Windows Icon)",
+			"Version":1,
+			"SubVersion":0,
+			"ComponentVersionShortNum":27,
+			"ComponentVersionMinorRevNum":0,
+			"ComponentVersionDotRevNum":0,
+			"ComponentName":"ICOFormat",
+			"CodeMacARM64":"PluginMain",
+			"CodeMacIntel64":"PluginMain",
+			"CodeEntryPointWin64":"PluginMain",
+			"SupportsPOSIXIO":true,
+			"SupportedModes":
+			{
+				"RGBColor":true
+			},
+			"EnableInfo":"true",
+			"PlugInMaxSize":[2147483647,2147483647],
+			"FormatMaxSize":[8192,8192],
+			"FormatMaxChannels":
+			[
+				1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+			],
+			"FmtFileType":
+			{
+				"Type":"ICO ",
+				"Creator":"8BIM"
+			},
+			"WriteExtensions":
+			[
+				"ICO "
+			],
+			"FormatFlags":
+			{
+				"SavesImageResources":false,
+				"CanRead":false,
+				"CanWrite":true,
+				"CanWriteIfRead":true,
+				"CanWriteTransparency":true,
+				"CanCreateThumbnail":false
+			},
+			"FormatICCFlags":
+			{
+				"CanEmbedGray":false,
+				"CanEmbedIndexed":false,
+				"CanEmbedRGB":false,
+				"CanEmbedCMYK":false
+			}
+		}
+	]
+}
