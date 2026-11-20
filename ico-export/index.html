@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { padding: 10px; font-size: 12px; overflow: auto; }
+    h3 { margin: 10px 0 4px 0; font-size: 12px; }
+    .sizes { display: flex; flex-direction: row; flex-wrap: wrap; }
+    .sizes sp-checkbox { width: 80px; }
+    .row { display: flex; flex-direction: row; align-items: center; }
+    #status { margin-top: 10px; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <sp-button id="export" variant="cta">Сохранить как ICO…</sp-button>
+    <sp-action-button id="reload" quiet title="Перезагрузить панель">↻</sp-action-button>
+  </div>
+  <div id="status"></div>
+  <h3>Размеры иконки (px)</h3>
+  <div class="sizes" id="sizes">
+    <sp-checkbox value="16" checked>16</sp-checkbox>
+    <sp-checkbox value="24">24</sp-checkbox>
+    <sp-checkbox value="32" checked>32</sp-checkbox>
+    <sp-checkbox value="48" checked>48</sp-checkbox>
+    <sp-checkbox value="64">64</sp-checkbox>
+    <sp-checkbox value="128">128</sp-checkbox>
+    <sp-checkbox value="256" checked>256</sp-checkbox>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
